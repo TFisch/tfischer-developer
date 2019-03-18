@@ -1,7 +1,9 @@
 {
-  "env": { 
+  "env": {
     "jest": true
   },
-  "globals": { 
-  }
+  "rules": {
+    "comma-dangle": ["error", "never"]
+  },
+  "globals": {}
 }
