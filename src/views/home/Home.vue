@@ -1,10 +1,19 @@
+
 <template>
-  <h1 class="home">homee</h1>
+  <div class="dashboard">
+    <h1 class="home">Title</h1>
+    <SideNav/>
+  </div>
 </template>
 
 <script>
+import SideNav from "../../components/sidenav/SideNav";
+
 export default {
   name: "Home",
+  components: {
+    SideNav
+  },
   data() {
     return {
       test: "test data!"
@@ -16,6 +25,10 @@ export default {
 <style scoped>
 .home {
   color: orange;
+}
+.dashboard {
+  height: 100vh;
+  width: 100%;
 }
 </style>
 
