@@ -26,6 +26,7 @@ export default {
   margin: 0;
   padding: 0;
   overflow: auto;
+  font-family: "Quicksand", sans-serif;
   border-right: solid 1px black;
   top: 0;
   left: 0;
