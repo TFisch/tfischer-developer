@@ -21,5 +21,6 @@ export default {
 }
 body {
   background-color: #272727;
+  font-family: "Quicksand", sans-serif;
 }
 </style>

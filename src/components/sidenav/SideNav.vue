@@ -23,22 +23,29 @@ export default {
 </script>
 <style scoped>
 #side-nav {
+  background-image: url("../../assets/astronomy-desktop.jpg");
+  background-size: cover;
+  opacity: 0.7;
   margin: 0;
-  padding: 0;
+  font-weight: bold;
+  padding-top: 20px;
   overflow: auto;
   font-family: "Quicksand", sans-serif;
-  border-right: solid 1px black;
   top: 0;
   left: 0;
   position: fixed;
   height: 100vh;
   max-width: 200px;
+  -webkit-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .nav-link-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 30px;
 }
 
 .profile-icon {
