@@ -14,12 +14,17 @@ export default {
 .side-nav-link {
   background: none;
   text-shadow: 2px 2px #000000;
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 8px;
   color: #ffffff;
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
+}
+
+.router-link-exact-active {
+  background: #000000;
+  opacity: 0.6;
 }
 
 .side-nav-link:hover {

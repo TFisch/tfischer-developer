@@ -2,12 +2,12 @@
   <nav id="side-nav">
     <img src="../../assets/profile.png" class="profile-icon" alt="Headshot of Designer">
     <div class="nav-link-wrapper">
-      <SideNavLink url="/home">About</SideNavLink>
-      <SideNavLink url="/home">Experience</SideNavLink>
-      <SideNavLink url="/home">This Site</SideNavLink>
-      <SideNavLink url="/home">Projects</SideNavLink>
-      <SideNavLink url="/home">Education</SideNavLink>
-      <SideNavLink url="/home">Contact</SideNavLink>
+      <SideNavLink url="/">Home</SideNavLink>
+      <SideNavLink url="/experience">Experience</SideNavLink>
+      <SideNavLink url="/thisesite">This Site</SideNavLink>
+      <SideNavLink url="/projects">Projects</SideNavLink>
+      <SideNavLink url="/education">Education</SideNavLink>
+      <SideNavLink url="/contact">Contact</SideNavLink>
     </div>
   </nav>
 </template>
