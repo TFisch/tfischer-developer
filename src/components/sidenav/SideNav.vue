@@ -25,7 +25,6 @@ export default {
 #side-nav {
   background-image: url("../../assets/astronomy-desktop.jpg");
   background-size: cover;
-  opacity: 0.7;
   margin: 0;
   font-weight: bold;
   padding-top: 20px;
@@ -35,6 +34,7 @@ export default {
   left: 0;
   position: fixed;
   height: 100vh;
+  width: 20vw;
   max-width: 200px;
   -webkit-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);
