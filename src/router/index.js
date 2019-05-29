@@ -3,6 +3,9 @@ import Router from 'vue-router';
 import Home from '@/views/home/Home';
 import Contact from '@/views/contact/Contact';
 import Experience from '@/views/experience/Experience';
+import ThisSite from '@/views/thissite/ThisSite';
+import Projects from '@/views/projects/Projects';
+import Education from '@/views/education/Education';
 
 Vue.use(Router);
 
@@ -14,14 +17,29 @@ export default new Router({
       component: Home
     },
     {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact
-    },
-    {
       path: '/experience',
       name: 'Experience',
       component: Experience
+    },
+    {
+      path: '/thissite',
+      name: 'ThisSite',
+      component: ThisSite
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: Projects
+    },
+    {
+      path: '/education',
+      name: 'Education',
+      component: Education
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
     }
   ],
   mode: 'history'
