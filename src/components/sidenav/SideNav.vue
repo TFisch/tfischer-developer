@@ -24,8 +24,7 @@ export default {
 </script>
 <style scoped>
 #side-nav {
-  background-image: url("../../assets/astronomy-desktop.jpg");
-  background-size: cover;
+  background-color: #13161f;
   margin: 0;
   font-weight: bold;
   padding-top: 20px;

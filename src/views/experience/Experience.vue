@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard">
-    <h1 class="home">Experience</h1>
+    <h1>Experience</h1>
     <div class="exp-row row-languages">
       <h2 class="exp-subhead">Languages</h2>
       <div class="icon-wrapper">
@@ -40,10 +40,6 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  color: orange;
-  padding-left: 20vw;
-}
 .dashboard {
   height: 100vh;
   width: 100%;

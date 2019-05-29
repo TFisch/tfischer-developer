@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard">
-    <h1 class="home">Title</h1>
+    <h1>Title</h1>
   </div>
 </template>
 
@@ -16,9 +16,6 @@ export default {
 </script>
 
 <style scoped>
-.home {
-  color: orange;
-}
 .dashboard {
   height: 100vh;
   width: 100%;
