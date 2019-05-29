@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/home/Home';
+import About from '@/views/about/About';
 import Contact from '@/views/contact/Contact';
 import Experience from '@/views/experience/Experience';
 import ThisSite from '@/views/thissite/ThisSite';
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
+    },
+    {
+      path: '/about',
+      name: 'About',
+      component: About
     },
     {
       path: '/experience',

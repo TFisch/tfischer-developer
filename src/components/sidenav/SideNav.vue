@@ -3,6 +3,7 @@
     <img src="../../assets/profile.png" class="profile-icon" alt="Headshot of Designer">
     <div class="nav-link-wrapper">
       <SideNavLink url="/">Home</SideNavLink>
+      <SideNavLink url="/about">About</SideNavLink>
       <SideNavLink url="/experience">Experience</SideNavLink>
       <SideNavLink url="/thissite">This Site</SideNavLink>
       <SideNavLink url="/projects">Projects</SideNavLink>
