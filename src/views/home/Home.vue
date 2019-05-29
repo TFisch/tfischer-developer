@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <SideNav/>
     <div class="dashboard">
       <h1 class="hello">Hello!</h1>
       <div class="home-bio">
@@ -28,15 +27,9 @@
 </template>
 
 <script>
-import SideNav from "../../components/sidenav/SideNav";
-import MenuIcon from "vue-material-design-icons/Menu.vue";
-
 export default {
   name: "Home",
-  components: {
-    SideNav,
-    MenuIcon
-  },
+  components: {},
   data() {
     return {
       homeBio:

@@ -1,6 +1,5 @@
 <template>
   <div class="dashboard">
-    <SideNav/>
     <h1 class="home">Experience</h1>
     <div class="exp-row row-languages">
       <h2 class="exp-subhead">Languages</h2>
@@ -30,13 +29,8 @@
 </template>
 
 <script>
-import SideNav from "../../components/sidenav/SideNav";
-
 export default {
   name: "Experience",
-  components: {
-    SideNav
-  },
   data() {
     return {
       test: "test data!"
