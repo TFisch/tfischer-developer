@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       homeBio:
-        "My name is Tim and I'm a JavaScript developer living in Saint Louis, Missouri. I love creating websites and applications that are intuitive and accessible to everyone.",
+        "My name is Tim and I'm a JavaScript developer living in Saint Louis, Missouri. I love creating websites and applications that are intuitive and accessible to everyone. I've been very fortunate to work alongside and learn from some very talented programmers.",
       columnOne:
         "xercitation ullamco laboris nisi ut ali. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ",
       columnTwo:
