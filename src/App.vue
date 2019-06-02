@@ -37,12 +37,18 @@ body {
 
 p {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: "#FFF";
 }
 
 h1 {
   color: #50c9ce;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin: 0;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+.page-header {
+  padding-top: 10px;
+  text-shadow: 2px 2px rgba(241, 241, 241, 0.8);
 }
 </style>

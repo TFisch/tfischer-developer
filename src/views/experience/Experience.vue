@@ -4,7 +4,7 @@
     <div class="exp-row row-languages">
       <h2 class="exp-subhead">Languages</h2>
       <div class="icon-wrapper">
-        <img src="https://via.placeholder.com/150">
+        <img src="static/assets/js-logo.png">
         <img src="https://via.placeholder.com/150">
         <img src="https://via.placeholder.com/150">
       </div>

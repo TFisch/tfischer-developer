@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard">
-    <h1>Title</h1>
+    <h1 class="page-header">Contact</h1>
   </div>
 </template>
 

@@ -5,7 +5,6 @@
       <SideNavLink url="/">Home</SideNavLink>
       <SideNavLink url="/about">About</SideNavLink>
       <SideNavLink url="/experience">Experience</SideNavLink>
-      <SideNavLink url="/thissite">This Site</SideNavLink>
       <SideNavLink url="/projects">Projects</SideNavLink>
       <SideNavLink url="/education">Education</SideNavLink>
       <SideNavLink url="/contact">Contact</SideNavLink>
