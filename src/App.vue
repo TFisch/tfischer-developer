@@ -30,7 +30,6 @@ html,
 body {
   background: #313948;
   font-family: "Quicksand", sans-serif;
-  height: 100%;
   margin: 0;
   padding: 0;
 }

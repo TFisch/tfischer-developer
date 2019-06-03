@@ -1,28 +1,31 @@
 <template>
-  <section class="school-card">
-    <div class="school-icon-wrapper">
-      <img class="school-icon" :src="icon" alt="alt">
-    </div>
-    <div class="school-info-wrapper">
-      <h2>{{schoolInfo.name}}</h2>
-      <p>{{schoolInfo.major}}</p>
-      <p>{{schoolInfo.minor}}</p>
-    </div>
-  </section>
+  <sequential-entrance :delay="delay">
+    <section class="school-card">
+      <div class="school-icon-wrapper">
+        <img class="school-icon" :src="icon" alt="alt">
+      </div>
+      <div class="school-info-wrapper">
+        <h2 class="school-header">{{schoolInfo.name}}</h2>
+        <p class="major">{{schoolInfo.major}}</p>
+        <p>{{schoolInfo.minor}}</p>
+        <p>{{schoolInfo.description}}</p>
+      </div>
+    </section>
+  </sequential-entrance>
 </template>
 
 <script>
 export default {
   name: "SchoolCard",
-  props: ["icon", "schoolInfo"]
+  props: ["icon", "schoolInfo", "delay"]
 };
 </script>
 
 <style scoped>
 .school-card {
   display: flex;
-  width: 70%;
-  height: 200px;
+  width: 680px;
+  height: auto;
   border-radius: 4px;
   margin: 20px;
   border: solid rgba(19, 22, 31, 0.9) 2.5px;
@@ -38,7 +41,6 @@ export default {
   align-items: center;
   margin: auto;
   justify-content: center;
-  background: rgba(240, 248, 255, 0.6);
   width: 25%;
   height: 100%;
 }
@@ -48,6 +50,15 @@ export default {
   text-align: left;
   padding-left: 20px;
   height: 100%;
+}
+
+.school-header {
+  margin-bottom: 0;
+}
+
+.major {
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 </style>
 
