@@ -42,7 +42,7 @@ export default {
   data() {
     return {
       homeBio:
-        "My name is Tim and I'm a JavaScript developer living in Saint Louis, Missouri. I love creating websites and applications that are intuitive and accessible to everyone. I've been very fortunate to work alongside and learn from some very talented programmers.",
+        "My name is Tim and I'm a JavaScript developer living in Saint Louis, Missouri. I love creating websites and applications that are intuitive and accessible to everyone. I've been very fortunate to work alongside and learn from some very talented programmers. Here's some of my areas of focus...",
       columnOne:
         "The field of web design is constantly evolving and it takes a vigilant student to keep pace! I challenge myself to learn JavaScript's new frameworks and libraries while also refining past skills.",
       columnTwo:
@@ -81,6 +81,7 @@ export default {
   border-radius: 2px;
   height: 90%;
   width: 100%;
+  max-width: 275px;
   margin: 10px 40px;
   background-color: rgba(19, 22, 31, 0.75);
 }
@@ -128,6 +129,7 @@ export default {
 .priorities-wrapper {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   height: 465px;
   width: 100%;
   margin: auto;

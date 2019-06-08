@@ -4,9 +4,7 @@
     <div class="nav-link-wrapper">
       <SideNavLink url="/">Home</SideNavLink>
       <SideNavLink url="/about">About</SideNavLink>
-      <SideNavLink url="/experience">Experience</SideNavLink>
       <SideNavLink url="/projects">Projects</SideNavLink>
-      <SideNavLink url="/education">Education</SideNavLink>
       <SideNavLink url="/contact">Contact</SideNavLink>
     </div>
   </nav>
@@ -32,7 +30,7 @@ export default {
   top: 0;
   left: 0;
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 20vw;
   max-width: 200px;
   -webkit-box-shadow: 4px 2px 5px 0px rgba(0, 0, 0, 0.75);

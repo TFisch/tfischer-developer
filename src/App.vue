@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <SideNav/>
-
     <router-view/>
   </div>
 </template>
@@ -24,6 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex;
 }
 
 html,
@@ -49,5 +49,11 @@ h1 {
 .page-header {
   padding-top: 10px;
   text-shadow: 2px 2px rgba(241, 241, 241, 0.8);
+}
+
+.dashboard {
+  margin-left: 20vw;
+  height: 100vh;
+  width: 100%;
 }
 </style>

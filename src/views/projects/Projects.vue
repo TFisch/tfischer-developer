@@ -1,5 +1,7 @@
 <template>
-  <h1>Projects!</h1>
+  <div class="dashboard">
+    <h1 class="page-header">Projects!</h1>
+  </div>
 </template>
 
 <script>
