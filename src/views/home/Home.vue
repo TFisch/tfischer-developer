@@ -1,8 +1,9 @@
 <template>
   <div class="home">
     <div class="dashboard">
-      <h1 class="page-header">Hello!</h1>
+      <h1 class="page-header home-header">Hello!</h1>
       <div class="home-bio">
+        <h2>My name is Tim.</h2>
         <p class="home-bio-content">{{homeBio}}</p>
       </div>
       <div class="priorities-wrapper">
@@ -36,13 +37,16 @@
 </template>
 
 <script>
+import SideNav from "../../components/sidenav/SideNav.vue";
 export default {
   name: "Home",
-  components: {},
+  components: {
+    SideNav
+  },
   data() {
     return {
       homeBio:
-        "My name is Tim and I'm a JavaScript developer living in Saint Louis, Missouri. I love creating websites and applications that are intuitive and accessible to everyone. I've been very fortunate to work alongside and learn from some very talented programmers. Here's some of my areas of focus...",
+        "I'm a fullstack JavaScript developer living in Saint Louis, Missouri. I love creating websites and applications that are intuitive and accessible to everyone. I've been very fortunate to work alongside and learn from some very talented programmers. Here's some of my areas of focus...",
       columnOne:
         "The field of web design is constantly evolving and it takes a vigilant student to keep pace! I challenge myself to learn JavaScript's new frameworks and libraries while also refining past skills.",
       columnTwo:
@@ -58,20 +62,23 @@ export default {
 .dashboard {
   height: 100%;
   color: rgb(241, 241, 241);
-  width: 80%;
-  margin-left: 240px;
-}
-.page-header {
-  padding-top: 10px;
-  text-shadow: 2px 2px rgba(241, 241, 241, 0.8);
+  width: 100%;
+  margin-left: 11vw;
 }
 .home-bio {
-  margin: auto;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
 }
+
 .home-bio-content {
   margin: 40px auto;
   max-width: 700px;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 2;
 }
 .column-one,
@@ -141,6 +148,9 @@ export default {
   padding-top: 20px;
   font-weight: 600;
   line-height: 1.4;
+}
+.home-header {
+  margin-bottom: 80px;
 }
 </style>
 

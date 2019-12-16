@@ -21,7 +21,7 @@ export default {
 </script>
 <style scoped>
 #side-nav {
-  background-color: #13161f;
+  background-color: rgb(37, 37, 37);
   margin: 0;
   font-weight: bold;
   padding-top: 20px;
